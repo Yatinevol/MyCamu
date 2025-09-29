@@ -89,7 +89,7 @@ try:
             email = request.form['username']
             password = request.form['password']
 
-            if email=='admin' and password=='admin123*':
+            if email=='admin' and password=='mycamu*':
                 session['user']="admin"
                 return redirect('admin')
 
