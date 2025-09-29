@@ -14,9 +14,6 @@ flag=True
 app.secret_key = os.urandom(24)
 
 try:
-    @app.route('/')
-    def home():
-        return render_template("index.html")
 
     @app.route('/about')
     def about():
