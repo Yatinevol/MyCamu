@@ -24,4 +24,4 @@ COPY . .
 EXPOSE 5000
 
 # Set the default command to run the app
-CMD ["python", "app.py"]
+CMD ["python3", "app.py"]
